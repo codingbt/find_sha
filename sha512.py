@@ -20,7 +20,6 @@ def get_hash_sha512():
         print(Color.DARKCYAN + "sha512 value has been calculated")
         color_reset()
 
-
 def verify_checksum_sha512():
     """Function for comparing calcuated hash with hash provided by developer"""
     print("Enter Checksum Provided by Authorized Distrubutor or Developer...")

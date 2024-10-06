@@ -1,3 +1,5 @@
+import sys
+
 import hashlib
 
 from colors import *
@@ -32,3 +34,4 @@ def verify_checksum_sha256():
         bad_result = (Color.BOLD + Color.RED + "WARNING!!! Checksum is NOT verified. Verify checksum entry with the checuksum source. Verifiy correct file or package. This is a potentially harmful file or package! Do not proceed! Notify developer or distributor if correct software is being checked and teh calculated checksum continues to not match checksum from developer or distributor.")
         print(bad_result)
         color_reset()
+        sys.exit()
