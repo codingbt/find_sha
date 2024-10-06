@@ -9,3 +9,6 @@ class Color():
     BOLD = '\033[91m'
     UNDERLINE = '\033[4m'
     END = '\033[0m'
+
+def color_reset():
+    print(Color.END)

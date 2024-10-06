@@ -15,7 +15,7 @@ def which_hash():
         get_hash_sha512()
         verify_checksum_sha512()
     else:
-        print(f"Type either sha256 or sha512. If you type anything else the program will close...like this.")
+        print("Type either sha256 or sha512. If you type anything else the program will close...like this.")
         sys.exit()
 
 if __name__ == "__main__":
